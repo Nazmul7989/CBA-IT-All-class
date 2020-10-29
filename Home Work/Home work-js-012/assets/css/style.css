@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cardBody{
+    width: auto;
+    height: 180px; 
+    text-align: center;
+    box-shadow: 0 4px 8px black;
+}
+.cardBody:hover{
+    background-color: teal;
+    color: white;
+}
+.cardBody:focus{
+    background-color: teal;
+    color: white;
+}
+.cardImg{
+    width: 70px;
+    height: 60px;
+    margin-top: 20px;
+}
+.cardText{
+    height: 180px;
+}

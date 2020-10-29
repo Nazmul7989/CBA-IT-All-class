@@ -1,0 +1,85 @@
+#container{
+    background-color: aliceblue;
+}
+.heading{
+    color: aqua;
+    font-size: 50px;
+    border: 5px solid red;
+    border-radius: 30px;
+}
+.borderPractice{
+   color: dodgerblue;
+    font-size: 20px;
+    text-align: justify;
+    border: 2px solid red;
+}
+
+.Other{
+    font-size: 30px;
+    text-align: justify;
+    color: green;
+    border-top: 2px dotted red;
+    border-right: 2px double blue;
+    border-bottom: 2px solid yellow;
+    border-left: 2px groove green;
+  
+}
+
+.bhead{
+    color: antiquewhite;
+    background-color: dodgerblue;
+    font-size: 40px;
+    border: 5px solid red;
+    border-radius: 20px;
+    
+}
+.backimg{
+    width: 600px;
+    height: auto;
+    color: aliceblue;
+    text-align: justify;
+    background-image: url(../img/11189892%20Nature,%20Mountains,%20Sky,%20Lake,%20Clouds%20HD%20Wallpaperz%20sjkdjlao.jpg);
+    background-repeat: none;
+    background-attachment: inherit;
+    background-position: right top;
+    background-size: cover;
+}
+
+.test1{
+    width: 300px;
+    height: auto;
+    color: white;
+    background-color: darkslategrey;
+    border-width: 2px 3px 5px 3px;
+    border-color: yellow;
+    border-style: dotted;
+}
+
+.mspractice{
+   color: antiquewhite;
+    background-color: dodgerblue;
+    font-size: 40px;
+    border: 5px solid red;
+    border-radius: 20px;     
+}
+
+.test2{
+    width: 300px;
+    height: auto;
+    text-align: justify;
+    background-color: aqua;
+    border: 2px solid red;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.test3{
+    width: 300px;
+    height: auto;
+    text-align: justify;
+    background-color: greenyellow;
+    border: 2px solid blue;
+    margin: 20px 50px;
+    padding: 10px;
+    
+}

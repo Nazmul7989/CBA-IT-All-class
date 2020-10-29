@@ -1,0 +1,48 @@
+.dispayPractice{
+    display: block;
+}
+.inlinepractice{
+    display: inline;
+}
+
+.displayInlineBlock{
+    color: blue;
+    display: inline-block;
+}
+.align{
+  float: right;  
+}
+.image{
+    width: 300px;
+    height: 300px; 
+   
+}
+.image:hover{
+    widows: 500px;
+    height: 500px;
+    opacity: .5;
+   border-radius: 50%; 
+}
+
+.hoverpractice:hover{
+    color: cadetblue;
+    background-color: beige;
+    font-size: 40px;
+}
+.sectionDivide{
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(to right,blue,#1abc9c,red,#9b59b6,black);   
+}
+
+.shadowtext{
+    font-size: 50px;
+    text-shadow: 5px 5px 5px  #EA2027;
+}
+.boxshadow{
+    width: 400px;
+    height: auto;
+/*    border: 1px solid red;*/
+    margin: 30px;
+    box-shadow: 5px 5px  #1B1464ed;
+}

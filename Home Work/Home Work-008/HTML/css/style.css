@@ -1,0 +1,16 @@
+.box{
+    height: 900px;
+    background-color: gray;
+}
+
+.rowOne{
+    height: 300px;
+}
+
+.rowTwo{
+    height: 300px;
+}
+
+.rowThree{
+    height: 300px;
+}

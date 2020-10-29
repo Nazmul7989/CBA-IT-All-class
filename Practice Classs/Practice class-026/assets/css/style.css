@@ -1,0 +1,19 @@
+.menu{
+    display: none;
+}
+
+.drop:hover .menu{
+    display: block;
+}
+
+.dropdown-menu{
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.drop:hover .dropIcon{
+    transform: rotate(90deg);
+    transition: 0.5s;
+}

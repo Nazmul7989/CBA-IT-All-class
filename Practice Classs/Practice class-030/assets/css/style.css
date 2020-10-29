@@ -1,0 +1,46 @@
+/*
+.main{
+    width: 600px;
+    height: 500px;
+    background-image:  url(../img/351257.jpg),linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+    background-blend-mode: overlay;
+    background-size: cover;
+}*/
+.myOverlay{
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+
+.overlayImg{
+    width: 100%;
+    height: 900px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.overlayItem{
+    width: 100%;
+    height: 900px;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.overlayText{
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.text{
+    margin-top: 400px;
+}

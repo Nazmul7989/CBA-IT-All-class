@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    background-color: rgba(0,0,0,0.7);
+    margin: 30px auto;
+    border-radius: 20px;
+}
+.inputBox{
+    border-radius: 20px;
+    background-color: rgba(165,200,235,0.4);
+    text-indent: 10px;
+    color: black;
+}
+
+.conditionBox{
+    color: white;
+}
+.inputBox::placeholder{
+    color: white;;
+}
+.submitBtn{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: teal;
+    color: white;
+}
+
+.submitBtn:hover{
+    background-color: dodgerblue;
+}

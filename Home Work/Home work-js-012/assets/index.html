@@ -1,0 +1,87 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<!--   Required meta tag-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Javascrit Practice</title>
+<!-- Bootstrap css   -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Custom css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="cardBody" onclick="demoImg1()">
+                            <div class="cardText" onclick="demoText1()">
+                                <img class="cardImg" src="icon/birthday-card.svg" alt=""><br>
+                                <p>Click me to see the effect</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="cardBody" onclick="demoImg2()">
+                            <div class="cardText" onclick="demoText2()"> 
+                                <img class="cardImg" src="icon/online-education.svg" alt=""><br>
+                                <p>Click me to see the effect</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-6">
+                        <div class="cardBody" onclick="demoImg3()">
+                            <div class="cardText" onclick="demoText3()">
+                                <img class="cardImg" src="icon/paper-sheet.svg" alt=""><br>
+                                <p>Click me to see the effect</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="cardBody" onclick="demoImg4()">
+                            <div class="cardText" onclick="demoText4()">
+                                <img class="cardImg" src="icon/portfolio%20(1).svg" alt=""><br>
+                                <p>Click me to see the effect</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card shadow">
+                    <img id="demoImg" class="card-img-top" src="img/freestocks-9UVmlIb0wJU-unsplash.jpg" alt="">
+                    <div class="card-body d">
+                        <p id="demoText" class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam iusto neque minima nulla recusandae nam, commodi tenetur, fuga in, eius maiores itaque, aperiam nemo! Nulla iste officiis enim ullam dolorum odio rem nemo consequatur libero expedita autem ducimus perspiciatis aut assumenda corrupti voluptatibus quo laboriosam, eum, praesentium cupiditate nihil veniam.</p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+          
+        <div class="row">
+            <div class="col-12">
+                <button onclick="bulbOn()" type="button" class="btn btn-primary">Bulb On</button>
+                <button onclick="bulbOff()" type="button" class="btn btn-primary">Bulb Off</button>
+                <img src="img/pic_bulboff.gif" id="demoBulb" alt=""><br><br><br>
+                
+                <button onclick="fillForm()" type="button" class="btn btn-primary">Fill Form</button>
+                <button onclick="ClearForm()" type="button" class="btn btn-primary">Clear Form</button><br><br>
+                <input id="demoForm" type="text">
+            </div>
+        </div>
+    </div><br>
+   
+
+
+   <br><br><br><br><br>
+<!--Optional javascript-->
+    <script src="js/custom.js"></script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.5.1.slim.min.js" type="text/javascript" ></script>
+    <script src="js/popper.min.js" type="text/javascript" ></script>
+    <script src="js/bootstrap.min.js" type="text/javascript" ></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    
+}
+.main{
+    width: 500px;
+    margin: 0 auto;
+    background-color: #ddd;
+    padding: 10px;
+    
+}
+.text-center{
+    text-align: center;
+}
+
+.b-silver{
+    border: 1px solid silver;    
+}
+
+p{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.content{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.content>img{
+    border-radius: 50%;
+    max-width:  width: 100px
+}
+
+.caption{
+    background-color: silver;
+}

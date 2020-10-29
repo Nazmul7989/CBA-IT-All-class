@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+.main{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.title .sub-title{
+    font-family: 'Space Mono', monospace;
+}
+
+.f-left{
+    float: left;
+    margin: 10px
+}
+
+.title {
+    font-size: 45px;
+}
+
+.content{
+    clear: both;
+}
+.icon>i{
+    font-size: 50px;
+    color: #d9534f;
+}
+

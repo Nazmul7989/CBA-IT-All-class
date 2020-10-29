@@ -1,0 +1,68 @@
+.box{
+    height: 900px;
+    background-color: #f1f1f1;
+}
+
+.rowOne{
+    height: 300px;
+    background-color: #5f27cd;
+}
+
+.rowTwo{
+    height: 300px;
+    background-color: #222f3e;
+}
+.rowTwoRowOne{
+    height: 50px;
+    background-color: gold;
+}
+
+.rowTwoRowTwo{
+    height: 250px;
+    background-color: firebrick;
+}
+
+.rowThree{
+    height: 300px;
+    background-color: darkslategrey;
+}
+
+.rowThreeRowOne{
+    height: 50px;
+    background-color: peachpuff;
+}
+
+.rowThreeRowTwo{
+    height: 250px;
+    background-color: beige;
+}
+
+.rowThreeLastRow{
+    height: 50px;
+    background-color: aquamarine;
+}
+
+.rowThreeRowEnd{
+    height: 200px;
+    background-color: #ddd;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: #5f27cd;
+}
+
+.orange{
+    background-color: #ff9f43;
+}
+.pink{
+    background-color: #f368e0;
+}
+
+.material{
+    background-color: #222f3e;
+    color: white;
+}

@@ -1,0 +1,52 @@
+/*
+.main{
+    width: 400px;
+    height: 400px;
+    margin: 30 auto;
+    background-color: #ddd;
+    position: relative;
+}
+
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.green{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.blue{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.yellow{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.button{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}*/
